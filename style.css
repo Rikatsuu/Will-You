@@ -56,10 +56,10 @@ body {
         background-image: url("window.png");
         background-size: contain;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: top center;
         border-radius: 12px;
         gap: 1px;
-        padding-top: 180px;
+        padding-top: 160px;
 
         transform: scale(1.2);
         opacity: 0;
