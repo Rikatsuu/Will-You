@@ -12,7 +12,7 @@ const finalText = document.getElementById("final-text");
 // Click Envelope
 envelope.addEventListener("click", () => {
     envelope.style.display = "none";
-    letter.style.display = "flex";
+    letter.style.visibility = "visible";
 
     setTimeout( () => {
         document.querySelector(".letter-window").classList.add("open");
