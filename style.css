@@ -59,7 +59,7 @@ body {
         background-position: top center;
         border-radius: 12px;
         gap: 1px;
-        padding-top: 160px;
+        /*padding-top: 160px;*/
 
         transform: scale(1.2);
         opacity: 0;
