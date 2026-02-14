@@ -48,7 +48,8 @@ body {
         width: 90vw;
         max-width: 999px;
         aspect-ratio: 3/2;
-        padding: 30px 30px 0 30px;
+        padding: clamp(20px, 5vw, 60px);
+        /*padding: 30px 30px 0 30px;*/
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -78,6 +79,7 @@ body {
         margin:0;
     }
     p {
+        font-size:clamp(18px, 4vw, 30px);
         font-size: 40px;
     }
     
@@ -86,9 +88,12 @@ body {
 
     /* Image */
     .anima {
-        width: 250px;
+        width: clamp(120px, 40vw, 250px);
+        /*width: 250px;*/
         margin: 10px 0;
         transition: width 0.4s ease;
+        image-rendering: pixelated;
+
 
     }
 
@@ -99,7 +104,8 @@ body {
     .buttons {
         display: flex;
         justify-content: center;
-        gap: 30px;
+        gap: clamp(10px, 4vw, 30px);
+        /*gap: 30px;*/
         position: relative;
     }
 
@@ -107,9 +113,12 @@ body {
         position: relative;
     }
     .btn {
-        width: 120px;
+        width: clamp(120px, 40vw, 250px);
+        /*width: 120px;*/
         cursor: pointer;
         user-select:none;
+        image-rendering: pixelated;
+
     }
 
     .yes-btn,.no-btn {
@@ -142,3 +151,8 @@ body {
         border-radius: 12px;
     }
 
+@media (mad-width: 480px) {
+    .letter-window {
+        padding-top: 120px;    
+    }
+}
