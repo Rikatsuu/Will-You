@@ -30,7 +30,7 @@ noBtn.addEventListener("click", () => {
     yesScale +=2;
 
     if (yesBtn.style.positon !== "fixed") {
-        yesBtn.style.positon = "fixed";
+        yesBtn.style.position = "fixed";
         yesBtn.style.top = "50%";
         yesBtn.style.left = "50%";
         yesBtn.style.transform = `translate(-50%, -50%) scale(${yesScale})`;
