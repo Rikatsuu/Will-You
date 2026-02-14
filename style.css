@@ -5,7 +5,7 @@ body {
     justify-content:center;
     align-items:center;
     background-image: url(heart-bg.jpg);
-    font-family: "Pixelify Sans", sans serif;
+    font-family: "Pixelify Sans", sans-serif;
 }
 
 
@@ -44,7 +44,7 @@ body {
     }
 
     .letter-window {
-        width: 90px;
+        width: 90vw;
         max-width: 800px;
         aspect-ratio: 3/2;
         padding: 20px 20px 0 20px;
@@ -67,7 +67,7 @@ body {
         
 
     }
-    .letter-window.opn {
+    .letter-window.open {
         transform: scale(1);
         opacity: 1;
     }
@@ -127,7 +127,7 @@ body {
     .no-btn {
         z-index: 1;
         position: relative;
-        transition: transform 0.15S ease;
+        transition: transform 0.15s ease;
         cursor: default;
     }
 
@@ -135,7 +135,7 @@ body {
         font-size: 22px;
         line-height: 1.4;
         text-align: center;
-        displaY: inline-block;
+        display: inline-block;
         padding: 10px 20px;
         background-color: antiquewhite;
         border-radius: 12px;

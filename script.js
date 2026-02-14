@@ -2,7 +2,7 @@
 const envelope = document.getElementById("envelope-container");
 const letter = document.getElementById("letter-container");
 const noBtn = document.querySelector(".no-btn");
-const yesBtn = document.querySelector(".btn[alt='Yesy']");
+const yesBtn = document.querySelector(".btn[alt='Yes']");
 
 const title = document.getElementById("letter-title");
 const animaImg = document.getElementById("letter-anima");
@@ -22,22 +22,24 @@ envelope.addEventListener("click", () => {
 // Make Yes Button Grow
 
 let yesScale = 1;
-yesBtn.style.positon = "relative";
+yesBtn.style.position = "relative";
 yesBtn.style.transformOrigin = "center center";
 yesBtn.style.transition ="transform 0.3s ease";
 
 noBtn.addEventListener("click", () => {
     yesScale +=2;
 
-    if (yesBtn.style.positon !== fixed) {
+    if (yesBtn.style.positon !== "fixed") {
         yesBtn.style.positon = "fixed";
         yesBtn.style.top = "50%";
         yesBtn.style.left = "50%";
-        yesBtn.style.transform = 'translate(-50%, -50%) scale(${yesScale})';
+        yesBtn.style.transform = `translate(-50%, -50%) scale(${yesScale})`;
+
     }
 
     else {
-        yesBtn.style.transform = 'translate(-50%, -50%) scale(${yesScale})'
+        yesBtn.style.transform = `translate(-50%, -50%) scale(${yesScale})`;
+
     }
 })
 
