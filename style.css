@@ -58,10 +58,10 @@ body {
         background-image: url("window.png");
         background-size: contain;
         background-repeat: no-repeat;
-        background-position: center 90%;
+        background-position: center 95%;
         border-radius: 12px;
         gap: 1px;
-        padding-top: 160px;
+        padding-top: 180px;
 
         transform: translateY(70px) scale(1.2);
         opacity: 0;
