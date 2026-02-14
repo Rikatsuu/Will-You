@@ -151,7 +151,7 @@ body {
         border-radius: 12px;
     }
 
-@media (mad-width: 480px) {
+@media (max-width: 480px) {
     .letter-window {
         padding-top: 120px;    
     }
