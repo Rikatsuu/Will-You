@@ -48,7 +48,7 @@ body {
         width: 90vw;
         max-width: 999px;
         aspect-ratio: 3/2;
-        padding: clamp(35px, 5vw, 60px);
+        padding: clamp(40px, 7vw, 60px);
         /*padding: 30px 30px 0 30px;*/
         display: flex;
         flex-direction: column;
@@ -63,7 +63,7 @@ body {
         gap: 1px;
         padding-top: 160px;
 
-        transform: translateY(30px) scale(1.2);
+        transform: translateY(40px) scale(1.2);
         opacity: 0;
         transition: transform 0.6s ease, opacity 0.6s ease;
         
