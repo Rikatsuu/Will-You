@@ -80,7 +80,7 @@ body {
     }
     p {
         font-size:clamp(18px, 4vw, 30px);
-        font-size: 40px;
+        /*font-size: 40px;*/
     }
     
 
