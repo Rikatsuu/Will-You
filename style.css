@@ -45,6 +45,8 @@ body {
     }
 
     .letter-window {
+        height: 90vw;
+        max-height: 999px;
         width: 90vw;
         max-width: 999px;
         aspect-ratio: 3/2;
